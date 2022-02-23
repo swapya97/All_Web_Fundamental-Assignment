@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(216, 211, 211);
+}
+.IMAGE {
+  width: 300px;
+}
+.text {
+  border: 1px solid;
+  background-color: rgb(139, 139, 139);
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 10px rgb(172, 130, 130);
+}
+.container h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.gallery-area {
+  display: flex;
+
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.single-image {
+  padding: 0 20px 20px;
+}

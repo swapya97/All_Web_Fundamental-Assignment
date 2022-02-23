@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+        padding-top: 50px;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+}
+
+form {
+  font-family: sans-serif;
+  width: 50%;
+  height: 1100px;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 2000px;
+  box-shadow: 0 27px 55px 0 rgba(93, 92, 94, 0.3),
+    0 17px 17px 0 rgba(106, 105, 107, 0.15);
+  padding: 5px;
+  padding-left: 30px;
+}
+
+h1 {
+  margin-right: 75px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: rgba(37, 37, 37, 0.616);
+}
+/* text  */
+
+/* input type  */
+input[type="email"] {
+}
+
+input[type="submit"] {
+  margin-bottom: 100px;
+}
+input[type="text"] {
+  margin-top: 40px;
+  border-radius: 10px;
+  border-bottom: 5px solid seagreen;
+  width: 230px;
+  height: 30px;
+}
+
+input[type="email"] {
+  border-radius: 10px;
+  border-bottom: 5px solid seagreen;
+  width: 230px;
+  height: 30px;
+  float: right;
+  margin-top: -77px;
+  margin-right: 50px;
+}
+
+input[type="tel"] {
+  margin-top: 20px;
+  border-radius: 10px;
+  border-bottom: 5px solid seagreen;
+  width: 230px;
+  height: 30px;
+}
+input[type="submit"] {
+  border-radius: 10px;
+  padding: 7px;
+  background: seagreen;
+  margin-right: 500px;
+  float: right;
+}
+input[type="reset"] {
+  border-radius: 10px;
+  padding: 7px;
+  background: seagreen;
+}
+input[type="reset"]:hover {
+  background: rgb(30, 197, 86);
+}
+input[type="submit"]:hover {
+  background: rgb(30, 197, 86);
+}
+
+/* label  */
+label {
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+/* classes  */
+
+.app {
+  color: #29b475;
+}
+
+.email_class {
+  margin-right: 230px;
+  float: right;
+  margin-top: -120px;
+}
+.heighest_degree {
+  margin-right: 125px;
+  float: right;
+  margin-top: -135px;
+}
+.degree {
+  border-radius: 10px;
+  border-bottom: 5px solid seagreen;
+  width: 250px;
+  height: 40px;
+  float: right;
+  margin-top: -77px;
+  margin-right: 32px;
+}
+
+.same {
+  margin-top: 20px;
+  border-radius: 10px;
+  border-bottom: 5px solid seagreen;
+  width: 90%;
+  height: 42px;
+}
+.para {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+}
+
+</style>
+
+</head>
+<body>
+
+    <form action>
+        <div>
+             <h1> <span class="app">Application </span> Form </h1> 
+             <!-- fullname -->
+             <br>
+             <br>
+             
+             <label for="">Full Name*</label>
+             <br>
+             <input type="text" name="name" id="" placeholder="Full Name" required>
+             <br>
+             <br>
+             <label class="email_class" for="">Email*</label>
+             <br>
+             <input type="email" name="email" id="" placeholder="Enter your email" required>
+            <br>
+            
+          
+          
+             
+     
+              <!-- select course -->
+             <label for="">Select Course*</label>
+             <br>
+             <br>
+             
+             <select class="same" name="select course" id="" required>
+                 <option selected disabled> select course</option>
+                 <option value="1">Full Stack Web Devlopement </option>
+                 <option value="2">Advance Web Devlopement</option>
+     
+             </select>
+             <br>
+             <br>
+             <br> 
+             
+     
+             <!-- Phone number  -->
+             <label for="">Phone Number*</label>
+             <br>
+             <br>
+             <input type="tel" name="number" id="" placeholder="Phone Number" pattern="[0-9]{10}" required >  
+            <br>
+            <br>
+            <br> 
+            
+     
+              
+             <!-- heighest degree  -->
+             <label class="heighest_degree" for="">Heighest Degree*</label>
+           
+              <select class="degree" name="degree" id="" required>
+                  <option selected disabled >Heighest Degree</option>
+                  <option value="1">B.E/B.tech CS IT</option>
+                  <option value="2">B.E/B.tech other</option>
+                  <option value="3">M.S/M.tech CS IT</option>
+                  <option value="4">M.S/M.tech other</option>
+              </select>
+              <br>
+              <br> 
+              
+     
+              <!-- year of complition  -->
+              <label for="">Year of Completion*</label>
+              <br>
+              <br>
+              <select class="same" name="year" id="" required>
+                  <option selected disabled>year of complition</option>
+                  <option value="1">2018</option>
+                  <option value="2">2019</option>
+                  <option value="3">2020</option>
+                  <option value="4">2021</option>
+                  <option value="5">2022</option>
+              </select>
+              <br>
+              <br> 
+              <br>
+     
+               <!-- prommming skill    -->
+              <label for="">Programming Skill*</label>
+              <br>
+              <br> 
+                       <select class="same" name="skills" id="" required>
+                           <option selected disabled>Programming Skill</option>
+                  <option value="1">No coding skill</option>
+                  <option value="2">Basic coding skill skill</option>
+                  <option value="3">Intermediate coding skill</option>
+                  <option value="4">Good coding skill</option>
+              </select>
+     
+               <br>
+               <br>
+              
+               
+     
+               <!-- checkbox  -->
+               <input type="checkbox" name="checked" required>
+              
+              <p class="para"> By Signing up, you agree to the Term and Condition of Geekster 
+               (QuantumBit technologies Pvt. Ltd)*.</p>
+              
+             
+
+                <input type="reset" name="" id="">
+
+               <input type="submit" name="" id="">
+                       
+         </form>
+
+<span>form</span>
+
+</body>
+
+</body>
+
+</html>
