@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/872/670/370/technology-ubuntu-linux-wallpaper-preview.jpg);
+  background-size: cover;
+
+  font-family: sans-serif;
+}
+
+.menu_bar {
+  background-color: rgb(0, 100, 0);
+
+  text-align: center;
+}
+.menu_bar ul {
+  display: inline-flex;
+}
+.menu_bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 12px;
+  list-style: none;
+}
+.menu_bar li a {
+  color: white;
+  text-decoration: none;
+}
+.menu_bar ul li:hover {
+  background-color: rgb(19, 226, 19);
+  border-radius: 5px;
+}
+.sub_menu_1 {
+  display: none;
+}
+.menu_bar ul li:hover .sub_menu_1 {
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -15px;
+  background-color: rgb(0, 100, 0);
+  border-radius: 5px;
+}
+
+.menu_bar ul li:hover .sub_menu_1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 5px;
+  background: transparent;
+}
