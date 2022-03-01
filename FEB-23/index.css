@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+.sing_up_form {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 1px 2px 5px;
+  text-align: center;
+  margin: auto;
+  padding: 50px 10px;
+}
+.sing_up_form H1 {
+  color: #1c8adb;
+  margin-bottom: 40px;
+}
+.input_box {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  border: solid 1px #999;
+  width: 75%;
+  outline: none;
+}
+button {
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid 1px #999;
+  cursor: pointer;
+  margin: 10px 0px;
+  color: #fff;
+  background-color: #1c8adb;
+  outline: none;
+}
+button:hover {
+  background-color: #0095ff;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
