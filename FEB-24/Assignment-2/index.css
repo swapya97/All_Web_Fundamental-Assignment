@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(0, 132, 255);
+}
+.header {
+  background-color: rgb(0, 132, 255);
+  position: absolute;
+  left: 1220px;
+  bottom: 585px;
+}
+.first-img {
+  width: 30px;
+  margin: 20px;
+}
+h3 {
+  margin-left: 20px;
+  position: relative;
+  left: 50px;
+  bottom: 60px;
+}
+h5 {
+  margin-left: 20px;
+  position: relative;
+  left: 50px;
+  bottom: 60px;
+  padding-top: 10px;
+}
+.material-icons {
+  padding: 30px 0px;
+}
+img {
+  width: 150px;
+  margin-left: 600px;
+  background-color: white;
+}
+.name {
+  width: 300px;
+  position: absolute;
+  left: 580px;
+  bottom: 300px;
+}
+.dear {
+  position: absolute;
+  bottom: 200px;
+  padding-left: 20px;
+  left: 20px;
+}
+.hello {
+  position: absolute;
+  bottom: 140px;
+  right: 20px;
+  padding-right: 20px;
+}
+.how {
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+  padding-right: 20px;
+}
+.fine {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  padding-right: 20px;
+}
+.college {
+  position: absolute;
+  bottom: 1px;
+  right: 20px;
+  padding-right: 20px;
+}
+.days {
+  position: absolute;
+  bottom: -40px;
+  left: 20px;
+  padding-right: 20px;
+}
+.border {
+  background-color: gray;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+}
